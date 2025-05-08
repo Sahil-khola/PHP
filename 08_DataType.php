@@ -1,4 +1,4 @@
- <!-- <?php
+<?php
 echo 'ALL types of Data type in PHP <br>';
 echo 'int <br>';
 echo 'float <br>';
@@ -8,8 +8,7 @@ echo 'null <br>';
 echo 'array <br>';
 echo 'object <br>';
 echo 'recource <br>';
-?>  -->
-
+?>  
 
 
 <?php
