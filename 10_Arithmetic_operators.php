@@ -1,3 +1,6 @@
+what is Arithmetic Operator?
+Arithmetic operators are used to perform mathematical operations on variables.
+
 <?php
 $a = 10;
 $b = 5;
