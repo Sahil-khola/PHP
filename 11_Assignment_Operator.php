@@ -5,5 +5,13 @@ Examples:
 
 <?php
 $x = 5;
-$y = 10;
+$y = 20;
+
+// echo $x += $y;
+// echo $x -= $y;
+// echo $x *= $y;
+// echo $x /= $y;
+// echo $x %= $y;
+echo $x **= $y;
+
 ?>
