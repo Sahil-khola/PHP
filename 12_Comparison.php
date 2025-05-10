@@ -17,4 +17,6 @@ const b = 10;
 // echo var_dump(a>=b);
 // echo var_dump(a<=b);
 
+// Spaceship Operator
+echo var_dump(a <=> b);
 ?>
