@@ -7,13 +7,14 @@ $name = 'Sahil khola';
 $str1 = "Rao shabh";
 $str2 = '10';
 
-echo var_dump($name);
-echo '<br>';
+// echo var_dump($name);
+// echo '<br>';
 
-echo var_dump($str1);
-echo '<br>';
+// echo var_dump($str1);
+// echo '<br>';
 
-echo var_dump($str2);
-echo '<br>';
+// echo var_dump($str2);
+// echo '<br>';
 
+echo 'My name is '.$name;
 ?>
