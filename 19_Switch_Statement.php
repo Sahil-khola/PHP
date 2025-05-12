@@ -3,25 +3,25 @@
 $color = 'black';
 
 switch($color){
-    case  'red';
+    case  'red':
     echo 'Red color is selected';
     break;
-    case  'black';
+    case  'black':
     echo 'black color is selected';
     break;
-    case  'white';
+    case  'white':
     echo 'white color is selected';
     break;
-    case  'blue';
+    case  'blue':
     echo 'blue color is selected';
     break;
-    case  'orange';
+    case  'orange':
     echo 'Red color is selected';
     break;
-    case  'brown';
+    case  'brown':
     echo 'brown color is selected';
     break;
-    case  'green';
+    case  'green':
     echo 'green color is selected';
     break;
 }
