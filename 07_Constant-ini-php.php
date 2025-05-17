@@ -1,4 +1,12 @@
-        <?php
+  What is Constant in Php?
+  Constant is a value that cannot be changed during the execution of a program.
+
+  type of Constant in PHP :
+  - User-defined Constant
+  - Built-in Constant
+
+  
+  <?php
 
 // variable :-------->
 // $name = 'sahil khola';
