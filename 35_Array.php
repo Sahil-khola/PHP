@@ -10,14 +10,28 @@ Array is a data type that is used to store multiple values in a single variable.
 <?php
 
 // $arr1 = array('Sahil','Sourav','Karan','Neeraj');
-$arr1 = ['Sahil ','Sourav ','Karan ','Neeraj'];
+// $arr1 = ['Sahil ','Sourav ','Karan ','Neeraj'];
 
 // echo $arr1[0];
 // echo $arr1[1];
 // echo $arr1[2];
 // echo $arr1[3];
 
-for ($i=0; $i < count($arr1) ; $i++) { 
-    echo $arr1[$i];
+// for ($i=0; $i < count($arr1) ; $i++) { 
+//     echo $arr1[$i];
+// }
+
+$arry = ['Sahil ',"Sourav ","Karan ","Neeraj "];
+// $arry[0];
+// echo $arry[1];
+// echo $arry[2];
+// echo $arry[3];echo 
+
+
+for($i = 0 ; $i < count($arry);$i++){
+    echo $arry[$i];
 }
+
+
+
 ?>

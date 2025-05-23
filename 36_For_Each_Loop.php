@@ -1,8 +1,15 @@
 <?php
 
-$user = ["Sahil ","Khola ","Sourav ","Karan"];
+$arr = ["Sahil ","Sourav ","Neeraj ","Himanshu "];
 
-foreach ($user as $i) {
-    echo $i;
+foreach($arr as $x){
+    // if ($x=="Neeraj ") {
+    //     break;
+    // }
+    // if($x=="Neeraj "){
+    //     continue;
+    // }
+    echo $x;
 }
+
 ?>
