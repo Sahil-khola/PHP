@@ -2,12 +2,15 @@
 A super global variable is a variable that is available throughout the entire script, even outside of functions.
 
 Types of Super Global Variables in PHP :
+
+- $GLOBALS
+- $_REQUEST
 - $_GET
 - $_POST
-- $_REQUEST
+- $_SERVER
+- $_FILES
 - $_COOKIE
 - $_SESSION
-- $_SERVER
 - $_ENV -->
 
 <?php
