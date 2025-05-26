@@ -1,10 +1,13 @@
 <?php
 if ($_FILES) {
-    echo "<pre>";
-    print_r($_FILES['uploadFile']);
-    echo "</pre>";
-
-
     $path = $_FILES['uploadFile']['name'];
-    echo $path;
-}
+    $upload_path = "./upload/" . $path;
+
+
+    if (move_uploaded_file($_FILES['uploadFile']['tmp_name'], $upload_path)) {
+        echo "Upload file sucessfull";
+    } else {
+        die("no file found");
+    }
+} 
+?>
