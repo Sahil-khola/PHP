@@ -8,14 +8,12 @@
 </head>
 
 <body>
-    <form action="" method="get">
-        <input type="text" name="InputField" placeholder="Enter Name">
+    <form action="" method="post">
+        <input type="text" name="InputField" id="InputField" placeholder="Enter User Name">
         <br><br>
-        <button name="button" value="set">set Cookies</button>
-        <br><br>
-        <button name="button" value="display">Display Cookies </button>
-        <br><br>
-        <button name="button" value="delete">Delete Cookies</button>
+        <button name="set">Set</button>
+        <button name="display">Display</button>
+        <button name="delete">delete</button>
     </form>
 </body>
 
@@ -23,18 +21,15 @@
 
 <?php
 
-if (isset($_GET['button'])) {
-    if ($_GET['button'] == 'set') {
-        $val = $_GET["InputField"];
-        setcookie('name', $val);
-        echo "Cookie set...";
-    }
-    if ($_GET['button'] == 'display') {
-        echo $_COOKIE['name'];
-    }
-    if ($_GET['button'] == 'delete') {
-        setcookie("name",'',-1);
-    }
+if (isset($_POST['set'])) {
+    $val = $_POST["InputField"];
+    setcookie("name",$val);
+}
+if (isset($_POST['display'])) {
+    echo $_COOKIE["name"];
+}
+if (isset($_POST['delete'])) {
+    setcookie("name","",-1);
 }
 
 ?>
