@@ -7,5 +7,4 @@ $users = ["Sahil",'Sourav',"Tinku","Rinku"];
 // array_push($users,"Rao shabh");
 array_pop($users);
 print_r($users);
-
 ?>
