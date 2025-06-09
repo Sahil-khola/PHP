@@ -30,3 +30,6 @@ select * from table_name
 
 select * from table_name where name = 'name'
 
+<!-- Delete and update data in table -->
+update table_name set name = 'name' where id = 1
+
