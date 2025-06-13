@@ -16,6 +16,9 @@ foreach ($result as $student) {
           </button>
      </form>
  </td>
+ <td>
+<a href='./09_Update.php?id={$student["id"]}'>edit</a>
+ </td>
  </tr>";
 }
 
@@ -27,4 +30,3 @@ if (isset($_GET["delete"])) {
     $getStudent->execute();
     echo $id;
 }
-?>
