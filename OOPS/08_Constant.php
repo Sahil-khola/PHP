@@ -2,7 +2,7 @@
 
 class ConstDemo
 {
-    protected const collegeName = " WCTM ";
+    protected const collegeName = " WCTM ,";
 
     function getCollegeName()
     {
@@ -14,7 +14,7 @@ class Name extends ConstDemo
 {
     function getName()
     {
-        echo ConstDemo::collegeName;
+        echo self::collegeName;
     }
 }
 
