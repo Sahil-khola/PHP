@@ -1,7 +1,7 @@
 <!-- 
 Q.What is Constructor?
 Ans : A constructor is a special method that is automatically called when an object of a class is created. It is used to initialize the properties of the object.
- 
+ isme object bnane ki jrurat nhi pdti
 -->
 
 <?php

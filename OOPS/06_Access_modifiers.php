@@ -5,18 +5,15 @@
 class Teacher
 {
 
-    public  function QuestionPaper()
-    {
+    public  function QuestionPaper(){
         echo "Student QuestionPaper";
     }
 
-    private function allMarks()
-    {
+    private function allMarks(){
         echo "All Marks";
     }
 
-    function marksReview()
-    {
+    function marksReview(){
         $this->allMarks();
     }
 

@@ -1,6 +1,7 @@
 <!-- 
 Q: What is Inheritance?
 Ans : Inheritance is a mechanism in object-oriented programming that allows one class to inherit properties and methods from another class.
+Inheritance ka use parent class ka method ya properties ko child class me use karne ke liye hota hai
 -->
 
 <?php

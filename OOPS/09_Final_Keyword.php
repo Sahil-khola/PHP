@@ -1,3 +1,6 @@
+<!-- 
+final keyword me hum class ko inherit karte nahi sakte 
+-->
 <?php
 
 // final class honda{
