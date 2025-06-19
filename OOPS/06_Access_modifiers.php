@@ -24,11 +24,13 @@ class Teacher
           echo "Private marks";
     }
 }
+
 class Management extends Teacher{
     function hiddenMarks(){
         $this->Marks();
     }
 }
+
 $t1 = new Teacher;
 // $t1->QuestionPaper();
 // $t1->marksReview();

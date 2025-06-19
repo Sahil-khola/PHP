@@ -5,29 +5,36 @@ Ans : A trait is a collection of methods and properties that can be shared betwe
 
 <?php
 
-trait Company1{
-    function totalEmploye(){
-        echo "total empolye = 500 ";
+trait compny1{
+    function totalempl(){
+        echo 500;
     }
 
-    function project(){
-        echo "total project = 10 ";
+    function totalProject(){
+        echo 15;
     }
 }
-trait Company2{
-    function totalOffice(){
-        echo "total Office = 10 ";
+trait compny2{
+    function totaloffice(){
+        echo 10;
+    }
+      function totalProject(){
+        echo 5;
     }
 }
 
 class childCompany{
-    use Company1;
-    use Company2;
+    use compny1, compny2 {
+        compny2::totalProject insteadof compny1;
+        compny1::totalProject as totalempl2;
+
+    }
 }
 
-$Comp = new childCompany();
-$Comp->totalEmploye();
-$Comp->totalOffice();
-$Comp->project();
+$childCompany = new childCompany();
+// $childCompany->totalempl();
+// $childCompany->totaloffice();
+$childCompany->totalProject();
+$childCompany->totalempl2();
 
 ?>
