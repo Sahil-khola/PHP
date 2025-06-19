@@ -1,3 +1,5 @@
+What is Interface?
+Ans : An interface is a blueprint for a class. It defines a set of methods that a class must implement.
 <?php
 
 interface productFeature
